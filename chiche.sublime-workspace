@@ -1,0 +1,731 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"div",
+				"gmp_divexact"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"backgro",
+				"background-position"
+			],
+			[
+				"setStyle",
+				"setStyles	Moo.styles(styles) Element"
+			],
+			[
+				"back",
+				"backgroundColor"
+			],
+			[
+				"em",
+				"emit"
+			],
+			[
+				"Asse",
+				"Asset.javascript	Moo.More Asset"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"date",
+				"date_create"
+			],
+			[
+				"get",
+				"getElementById"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1298,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "center.php",
+			"settings":
+			{
+				"buffer_size": 353,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 2335,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mission.php",
+			"settings":
+			{
+				"buffer_size": 3123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "privacy.php",
+			"settings":
+			{
+				"buffer_size": 3015,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"content\">\n	<div class=\"sub-content\">\n		<div id=\"trailer-top\">\n			<img src=\"trailer1\" alt=\"\">\n			<img src=\"trailer2\" alt=\"\">\n			<img src=\"trailer3\" alt=\"\">\n		</div>\n		<div id=\"trailer-bottom\">\n			<img src=\"trailer4\" alt=\"\">\n			<img src=\"trailer5\" alt=\"\">\n			<img src=\"trailer6\" alt=\"\">\n		</div>\n		\n		\n	</div>\n</div>",
+			"file": "trailers.php",
+			"file_size": 339,
+			"file_write_time": 1371476747000000,
+			"settings":
+			{
+				"buffer_size": 326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "prices.php",
+			"settings":
+			{
+				"buffer_size": 2674,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contact.php",
+			"settings":
+			{
+				"buffer_size": 310,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"ajax",
+				"Snippet: jQuery AJAX call"
+			],
+			[
+				"ready",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"jque",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"create",
+				"Gist: Create Public Gist"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"control",
+				"Package Control: Remove Package"
+			],
+			[
+				"mootools",
+				"Snippet: Mootools"
+			],
+			[
+				"",
+				"File: New View into File"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"pcka",
+				"Package Control: Add Repository"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 412.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/chiche2/test.php",
+		"/var/www/chiche2/js/jquery.js",
+		"/var/www/chiche2/menu.php",
+		"/var/node/map/server/models/Users.js",
+		"/var/node/map/public/controllers/uiEvents.js",
+		"/var/node/map/app.js",
+		"/var/node/map/controllers/ioEvents.js",
+		"/var/node/map/classes/clientServer.js",
+		"/var/node/map/classes/svg.js",
+		"/var/node/map/index.html",
+		"/var/node/map/classes/auth.js",
+		"/var/node/map/classes/game.js",
+		"/var/node/map/controllers/initialize.js",
+		"/var/node/map/controllers/uiEvents.js",
+		"/var/node/map/controllers/gameEvents.js",
+		"/var/node/map/package.json",
+		"/var/node/map/classes/ui.js",
+		"/var/node/map/node_modules/socket.io/package.json",
+		"/var/node/map/classes/router.js",
+		"/var/node/map/controllers/events.js",
+		"/var/node/map/ui/css/style.css",
+		"/var/node/draw/app.js",
+		"/var/node/map/controllers/bootstrap.js",
+		"/var/node/map/db/options.js",
+		"/var/node/map/db/paths.js",
+		"/etc/pm/sleep.d/20_custom-asus-u36sd",
+		"/var/node/draw/assets/js/script.js",
+		"/var/node/draw/app2.js",
+		"/var/node/map/controllers/inOut.js",
+		"/var/node/map/controllers/io.js",
+		"/var/node/map/classes/server.js",
+		"/var/www/moodle24/config.php",
+		"/var/www/demo/RealtimeMultiplayerNodeJs/js/DemoHelloWorld/server.js",
+		"/var/www/demo/RealtimeMultiplayerNodeJs/js/network/ClientNetChannel.js",
+		"/var/www/demo/RealtimeMultiplayerNodeJs/js/core/RealtimeMutliplayerGame.js",
+		"/var/www/demo/RealtimeMultiplayerNodeJs/js/model/Constants.js",
+		"/var/node/demo/RealtimeMultiplayerNodeJs/DemoHelloWorld.html",
+		"/var/node/demo/RealtimeMultiplayerNodeJs/js/DemoHelloWorld/server.js",
+		"/var/node/draw/index.html",
+		"/var/www/demo/RealtimeMultiplayerNodeJs/js/DemoHelloWorld/DemoServerGame.js",
+		"/var/www/demo/RealtimeMultiplayerNodeJs/node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.js",
+		"/var/www/demo/RealtimeMultiplayerNodeJs/js/DemoHelloWorld/script.js",
+		"/var/node/demo/RealtimeMultiplayerNodeJs/js/DemoHelloWorld/DemoServerGame.js",
+		"/var/node/demo/RealtimeMultiplayerNodeJs/js/DemoHelloWorld/DemoHelloWorld.js",
+		"/var/node/draw/script.js",
+		"/var/www/map/classes/svg.js",
+		"/var/www/map/controllers/events.js",
+		"/var/www/map/controllers/initialize.js",
+		"/var/www/map/classes/game.js",
+		"/var/node/assets/js/script.js",
+		"/var/www/map/classes/server.js",
+		"/var/www/map/controllers/io.js",
+		"/var/node/app2.js",
+		"/var/node/app.js",
+		"/var/www/map/index.html",
+		"/var/www/map/db/options.js",
+		"/var/www/map/db/paths.js",
+		"/var/www/map/controllers/bootstrap.js",
+		"/var/www/map/controllers/server.js",
+		"/var/www/map/controllers/initialization.js",
+		"/var/www/map/classes/map.js",
+		"/var/www/map/classes/ui.js",
+		"/var/www/map/map.sublime-project",
+		"/var/www/iconoclast/app/controllers/HelloWorldController.php",
+		"/var/www/iconoclast/app/controllers/SessionsController.php",
+		"/var/www/iconoclast/app/views/sessions/add.html.php",
+		"/var/www/iconoclast/app/views/users/add.html.php",
+		"/var/www/iconoclast/app/webroot/js/views/sessions/add.js",
+		"/var/www/iconoclast/app/controllers/UsersController.php",
+		"/var/www/iconoclast/app/config/bootstrap.php",
+		"/var/www/iconoclast/app/views/layouts/default.html.php",
+		"/var/www/iconoclast/app/webroot/js/global.js",
+		"/var/www/iconoclast/app/webroot/js/views/users/add.js",
+		"/var/www/iconoclast/app/webroot/css/style.css",
+		"/var/www/iconoclast/app/config/bootstrap/javascript.php",
+		"/etc/php5/apache2/php.ini",
+		"/var/www/iconoclast/app/models/Users.php",
+		"/tmp/fz3temp-1/rocket_styles.css",
+		"/tmp/fz3temp-1/rocket_bootstrap.css",
+		"/tmp/fz3temp-1/rocket_layout.css",
+		"/etc/php5/conf.d/xdebug.ini",
+		"/var/www/iconoclast/app/webroot/js/empty",
+		"/var/www/iconoclast/app/controllers/CommentsController.php",
+		"/var/www/iconoclast/app/controllers/DemoController.php",
+		"/var/www/iconoclast/app/views/elements/comments.html.php",
+		"/home/limoragni/.config/sublime-text-2/Packages/Color Scheme - Default/Sunburst.tmTheme",
+		"/home/limoragni/.config/sublime-text-2/Packages/Color Scheme - Default/Monokai.tmTheme",
+		"/var/www/iconoclast/app/views/elements/login.html.php",
+		"/home/limoragni/.config/sublime-text-2/Packages/Color Scheme - Default/Monokai.tmTheme.cache",
+		"/home/limoragni/.config/sublime-text-2/Packages/PHP/$_COOKIE[''].sublime-snippet",
+		"/home/limoragni/Documents/Code examples/Javascript/functions.js",
+		"/home/limoragni/Documents/Maps/classes/map.js",
+		"/home/limoragni/.config/sublime-text-2/Packages/User/Fetch.sublime-settings",
+		"/home/limoragni/.config/sublime-text-2/Packages/Gist/Gist.sublime-settings",
+		"/home/limoragni/Documents/Maps/classes/testfile/test.js",
+		"/home/limoragni/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/usr/share/applications/sublime.desktop",
+		"/usr/share/applications/defaults.list",
+		"/home/limoragni/Documents/Maps/Maps.sublime-project",
+		"/home/limoragni/Documents/Code examples/Javascript/events.js",
+		"/home/limoragni/Documents/Code examples/Javascript/functionOverloading.js",
+		"/home/limoragni/Documents/Code examples/Javascript/scoop.js",
+		"/home/limoragni/Documents/Code examples/Javascript/css.js",
+		"/home/limoragni/Documents/Code examples/Javascript/DOM.js",
+		"/home/limoragni/Documents/Code examples/Javascript/context.js",
+		"/home/limoragni/Documents/Code examples/Javascript/toolsSet.js",
+		"/home/limoragni/Documents/Code examples/Javascript/objects.js",
+		"/home/limoragni/Documents/Code examples/Javascript/inheritance.js",
+		"/home/limoragni/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/limoragni/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings",
+		"/home/limoragni/.config/sublime-text-2/Packages/User/PHP.sublime-settings",
+		"/home/limoragni/Documents/Code examples/Javascript/testenv.html",
+		"/home/limoragni/Documents/Code examples/Javascript/typeCheking.js",
+		"/home/limoragni/Documents/Code examples/Javascript/references.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"compare",
+			"gameEvents",
+			"},",
+			"\",\n",
+			"justify",
+			"io.connect(",
+			"local",
+			"socket",
+			"}",
+			"\",}",
+			"{name:",
+			"\",",
+			": {name:",
+			": {",
+			":{",
+			":  \"",
+			": \"",
+			"\"",
+			"DE",
+			" \"",
+			"#page-site-index",
+			"#page-site-index{",
+			"#page-site-index {",
+			"#page-site-index",
+			"upload_max_siz",
+			"size",
+			"max",
+			"supp",
+			"061a6c",
+			"variable",
+			"punctuation.definition.variable",
+			"variable",
+			"php",
+			"content",
+			"href",
+			"gedit.desktop",
+			"sa",
+			"text"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sublime.desktop"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 1298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1085,
+								1085
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "center.php",
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								293,
+								293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 2335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2328,
+								2328
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2254.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mission.php",
+					"settings":
+					{
+						"buffer_size": 3123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								838,
+								838
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "privacy.php",
+					"settings":
+					{
+						"buffer_size": 3015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1846,
+								1846
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 867.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "trailers.php",
+					"settings":
+					{
+						"buffer_size": 326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "prices.php",
+					"settings":
+					{
+						"buffer_size": 2674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2006,
+								2006
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "contact.php",
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 68.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"",
+				"classes/game.js"
+			],
+			[
+				"style",
+				"app/webroot/css/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true
+}
