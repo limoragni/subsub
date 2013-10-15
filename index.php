@@ -18,13 +18,11 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$.each($('.bots'), function(i, v){
-				console.log(v);
 				$(v).click(function(){
 					window.location.href = 'index.php?page=' + v.id + '&lang=<?php echo $lang ?>';
 				})
 			})
 			$('#indi').click(function(){
-				console.log('X');
 				window.location.href = 'index.php?lang=<?php echo $lang ?>';
 			});
 		});
@@ -39,13 +37,11 @@
 	<div id="container">
 		<div id="barra">
 			<div id="botonera">
-				
 				<div id="mission" class="bots"></div>
 				<div id="privacy" class="bots"></div>
 				<div id="prices" class="bots"></div>
 				<div id="trailers" class="bots"></div>
 				<div id="contact" class="bots"></div>
-				
 			</div>
 		</div>
 		<div id="indi"></div>
@@ -55,8 +51,8 @@
 				include('center.php');
 			}else{
 				$page = $_GET['page'];
-				$url = $page . '.php';
-				include($url);
+				$path = $page . '.php';
+				include($path);
 			}
 
 		?>
