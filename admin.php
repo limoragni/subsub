@@ -40,13 +40,73 @@
 						});
 					});
 				});
-				
+				//-----------------------
+				$.each($('.insertar'), function(i,v){
+					$(v).click(function(){
+echo $newRow;
+						var id = this.id;
+						newRow['id'] = id;
+						$.each($('.' + id), function(index, val){
+							newRow[$(val).data("key")] = val.value;
+						})
+						$.ajax({
+							newRow: newRow,
+							url: "insert.php",
+							type: "POST",
+							success: function(d){
+								console.log(d);
+							}
+						});
+					});
+				});
+				//---------------------------------
 			});
 		</script>
 	</head>
 	<body>
     
-    
+    	<div>
+			<?php 
+				$newRow = Array();
+			?>
+			<ul>
+				<br>
+				<p>Agregar</p>
+				<br>
+				<label>Vimeo Id</label>
+				<br>
+				<input type='text' data-key="vimeo_id" class="<?php echo $newRow['id']?>" value='<?php echo $newRow['vimeo_id']?>'>
+				<br>
+				<br>
+				<label>Nombre</label>
+				<br>
+				<input type='text' data-key="nombre" class="<?php echo $newRow['id']?>" value='<?php echo $newRow['nombre']?>'>
+				<br>
+				<br>
+				<label>Director</label>
+				<br>
+				<input type='text' data-key="director" class="<?php echo $newRow['id']?>" value='<?php echo $newRow['director']?>'>
+				<br>
+				<br>
+				<label>Pais</label>
+				<br>
+				<input type='text' data-key="pais" class="<?php echo $newRow['id']?>" value='<?php echo $newRow['pais']?>'>
+				<br>
+				<br>
+				<label>Duracion</label>
+				<br>
+				<input type='text' data-key="duracion" class="<?php echo $newRow['id']?>" value='<?php echo $newRow['duracion']?>'>
+				<br>
+				<br>
+				<label>Comentario</label>
+				<br>
+				<textarea data-key="comentario" class="<?php echo $newRow['id']?>"><?php $newRow['comentario']?></textarea>
+				<br>
+				<br>
+				<input id="<?php echo $newRow['id']?>" type="button" value="insertar" class="insertar">
+			</ul>
+		</div>
+
 	<?php foreach($data as $v):?>
 		<div>
 			<iframe src="http://player.vimeo.com/video/<?php echo $v['vimeo_id']?>" width="250" height="150" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -81,10 +141,13 @@
 				<textarea data-key="comentario" class="<?php echo $v['id']?>"><?php echo $v['comentario']?></textarea>
 				<br>
 				<br>
-				<input id="<?php echo $v['id']?>"" type="button" value="enviar" class="enviar">
+				<input id="<?php echo $v['id']?>" type="button" value="enviar" class="enviar">
 			</ul>
 		</div>
 	<?php endforeach; ?>
+
+	 
+		
 
 	</body>
 </html>
