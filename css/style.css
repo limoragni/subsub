@@ -130,17 +130,17 @@ ul, li{
 	width: 100%;
 	background-color: #F7E1B8;
 	margin-top: 100px;
-	padding: 10px 0px 15px 0px;
+	padding: 10px 0px 40px 0px;
 }
 
 .sub-content{
 	margin-left: 15%;
-	padding-top: 20px;
+	padding-top: 30px;
 	width: 900px;
 	text-align: justify;
 	position: relative;
 	left: 50%;
-	margin-left: -420px;
+	margin-left: -620px;
 }
 
 .text-cont{
@@ -165,7 +165,7 @@ ul, li{
 	width: 550px;
 	position: relative;
 	left: 50%;
-	margin-left: -260px;
+	margin-left: -230px;
 }
 
 .trs{
