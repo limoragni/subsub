@@ -25,7 +25,7 @@
 
 <?php	if($lang == 'SP'): ?>
 			<p class="text">
-				Los precios varían según el tiempo de tu película, idioma y facilidades (Guiones, Transcripciones, Time`s laps).
+				Los precios varían según el tiempo de tu película, idioma y facilidades (Guiones, Transcripciones).
 			</p>	
 			<p class="text">
 				Precios estimativos.
