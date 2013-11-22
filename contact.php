@@ -1,6 +1,6 @@
 <div class="content">
 	<div class="sub-content">
-		<img id="contacto" src="imgs/contacto.png">
+		<img id="contacto" src="imgs/contacto2.png">
 			
 <?php   if($lang == 'EN'): ?>
 			

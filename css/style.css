@@ -29,16 +29,17 @@ ul, li{
 	width: 100%;
 	height: 75px;
 	background-color: #F7E1B8;
-	margin-top: 38px;
+	/*margin-top: 38px;*/
 }
 #botonera{
 	overflow: hidden;
 	margin-left: -195;
 	padding-top: 15px;
-	width: 425px;
+	width: 460px;
 	position: relative;
 	left: 50%;
 }
+
 #indi{
 	background-image: url("../imgs/ind.png");
 	width: 142px;
@@ -50,14 +51,32 @@ ul, li{
 	cursor: pointer;
 	
 }
-#centro{
-	background-image: url("../imgs/centro.png");
-	width: 665px;
-	height: 503px;
+#centroEN{
+	background-image: url("../imgs/centroEN.png");
+	width: 666px;
+	height: 504px;
+	margin: 2% auto 0px auto;  
+}
+#centroSP{
+	background-image: url("../imgs/centroSP.png");
+	width: 666px;
+	height: 504px;
+	margin: 2% auto 0px auto;  
+}
+#centroGER{
+	background-image: url("../imgs/centroGER.png");
+	width: 666px;
+	height: 504px;
+	margin: 2% auto 0px auto;  
+}
+#centroIT{
+	background-image: url("../imgs/centroITA.png");
+	width: 666px;
+	height: 504px;
 	margin: 2% auto 0px auto;  
 }
 #lenguajes{
-	padding:300px 0px 0px 0px;
+	padding:285px 0px 0px 0px;
 	margin-left: 190px;
 }
 .lng{
@@ -69,62 +88,200 @@ ul, li{
 .bots{
 	float: left;
 	margin-right: 30px;
-	width: 55px;
-	height: 45px;
+	width: 56px;
+	height: 50px;
 }
 
-
-
-#mission{
-	background-image: url("../imgs/mission.png");
+#missionEN{
+	background-image: url("../imgs/missionEN.png");
 	background-repeat: no-repeat;
 	position: relative;
 	top: 3px;
 }
 
-#mission:hover{
+#missionEN:hover{
+	background-position: 0px -53px;
+	cursor: pointer;
+}
+
+#missionSP{
+	background-image: url("../imgs/missionES.png");
+	background-repeat: no-repeat;
+	position: relative;
+	top: 3px;
+}
+
+#missionSP:hover{
 	background-position: 0px -52px;
 	cursor: pointer;
 }
+#missionIT{
+	background-image: url("../imgs/missionITA.png");
+	background-repeat: no-repeat;
+	position: relative;
+	top: 3px;
+}
 
-#prices{
-	background-image: url("../imgs/price.png");
+#missionIT:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#missionGR{
+	background-image: url("../imgs/missionGER.png");
+	background-repeat: no-repeat;
+	position: relative;
+	top: 3px;
+}
+
+#missionGR:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#pricesEN{
+	background-image: url("../imgs/priceEN.png");
 	background-repeat: no-repeat;
 
 
 }
-#prices:hover{
-	background-position: 0px -46px;
+#pricesEN:hover{
+	background-position: 0px -52px;
 	cursor: pointer;
 }
+#pricesSP{
+	background-image: url("../imgs/priceES.png");
+	background-repeat: no-repeat;
 
-#trailers{
-	background-image: url("../imgs/trailers.png");
+
+}
+#pricesSP:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#pricesGR{
+	background-image: url("../imgs/priceGER.png");
+	background-repeat: no-repeat;
+
+
+}
+#pricesGR:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#pricesIT{
+	background-image: url("../imgs/priceITA.png");
+	background-repeat: no-repeat;
+
+
+}
+#pricesIT:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#trailersEN{
+	background-image: url("../imgs/trailersEN.png");
 	background-repeat: no-repeat;
 }
-#trailers:hover{
-	background-position: 0px -50px;
+#trailersEN:hover{
+	background-position: -1px -52px;
 	cursor: pointer;
 }
-#contact{
-	background-image: url("../imgs/contact.png");
+#trailersSP{
+	background-image: url("../imgs/trailersES.png");
+	background-repeat: no-repeat;
+}
+#trailersSP:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#trailersIT{
+	background-image: url("../imgs/trailersITA.png");
+	background-repeat: no-repeat;
+}
+#trailersIT:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#trailersGR{
+	background-image: url("../imgs/trailersGER.png");
+	background-repeat: no-repeat;
+}
+#trailersGR:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#contactEN{
+	background-image: url("../imgs/contactEN.png");
 	background-repeat: no-repeat;
 	position: relative;
 	top: 5px;
 }
-#contact:hover{
-	background-position: 0px -55px;
-	cursor: pointer;
-}
-#privacy{
-	background-image: url("../imgs/privacy.png");
-	background-repeat: no-repeat;
-}
-#privacy:hover{
+#contactEN:hover{
 	background-position: 0px -52px;
 	cursor: pointer;
 }
+#contactSP{
+	background-image: url("../imgs/contactES.png");
+	background-repeat: no-repeat;
+	position: relative;
+	top: 5px;
+}
+#contactSP:hover{
+	background-position: 0px -53px;
+	cursor: pointer;
+}
+#contactIT{
+	background-image: url("../imgs/contactITA.png");
+	background-repeat: no-repeat;
+	position: relative;
+	top: 5px;
+}
+#contactIT:hover{
+	background-position: 0px -53px;
+	cursor: pointer;
+}
+#contactGR{
+	background-image: url("../imgs/contactGER.png");
+	background-repeat: no-repeat;
+	position: relative;
+	top: 5px;
+}
+#contactGR:hover{
+	background-position: 0px -53px;
+	cursor: pointer;
+}
 
+#privacyEN{
+	background-image: url("../imgs/privacyEN.png");
+	background-repeat: no-repeat;
+}
+#privacyEN:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#privacySP{
+	background-image: url("../imgs/privacyES.png");
+	background-repeat: no-repeat;
+}
+#privacySP:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#privacyGR{
+	background-image: url("../imgs/privacyGER.png");
+	background-repeat: no-repeat;
+}
+#privacyGR:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#privacyIT{
+	background-image: url("../imgs/privacyITA.png");
+	background-repeat: no-repeat;
+}
+#privacyIT:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
 .content{
 	min-height: 340px;
 	width: 100%;
@@ -213,4 +370,46 @@ ul, li{
 	background-color: #555;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+}
+
+#botonera2{
+	overflow: hidden;
+	margin-left: 195px;
+	/*padding-top: 15px;*/
+	width: 85%;
+	position: relative;
+	/*right: 10%;*/
+
+	
+}
+.bots2{
+	float: right;
+	/*margin-right: 10px;*/
+	
+}
+#face{
+	width: 40px;
+	height: 40px;
+	background-image: url("../imgs/face.png");
+	background-repeat: no-repeat;
+	background-position: -10px -2px;
+	position: relative;
+	top: 3px;
+}
+#face:hover{
+	background-position: -10px -54px;
+	cursor: pointer;
+}
+#paypal{
+	width: 111px;
+	height: 40px;
+	background-image: url("../imgs/paypal.png");
+	background-repeat: no-repeat;
+	background-position: 0px -5px;
+	position: relative;
+	top: 3px;
+}
+#paypal:hover{
+	background-position: 0px -62px;
+	cursor: pointer;
 }

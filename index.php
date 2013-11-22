@@ -34,17 +34,85 @@
 	<div id="grey">
 	
 	</div>
+			<div id="botonera2">
+				<div id="face" class="bots2" onclick="location.href='https://www.facebook.com/sub.subtitles?fref=ts';"></div>
+				<div id="paypal" class="bots2"onclick="location.href='https://www.paypal.com';"></div>
+			</div>
 	<div id="container">
 		<div id="barra">
 			<div id="botonera">
-				<div id="mission" class="bots"></div>
-				<div id="privacy" class="bots"></div>
-				<div id="prices" class="bots"></div>
-				<div id="trailers" class="bots"></div>
-				<div id="contact" class="bots"></div>
-			</div>
+			<?php   if($lang == 'EN'): ?>			
+				<div id="mission" class="bots">
+					<div id="missionEN" class="bots"></div>
+				</div>
+				<div id="privacy" class="bots">
+					<div id="privacyEN" class="bots"></div>
+				</div>
+				<div id="prices" class="bots">
+					<div id="pricesEN" class="bots"></div>
+				</div>
+				<div id="trailers" class="bots">
+					<div id="trailersEN" class="bots"></div>
+				</div>
+				<div id="contact" class="bots">
+					<div id="contactEN" class="bots"></div>
+				</div>
+			<?php 	endif; ?>
+			<?php   if($lang == 'SP'): ?>
+				<div id="mission" class="bots">
+					<div id="missionSP"  class="bots"></div>
+				</div>
+				<div id="privacy" class="bots">
+					<div id="privacySP" class="bots"></div>
+				</div>
+				<div id="prices" class="bots" class="bots">
+					<div id="pricesSP" class="bots"></div>
+				</div>
+				<div id="trailers" class="bots">
+					<div id="trailersSP" class="bots"></div>
+				</div>
+				<div id="contact" class="bots">
+					<div id="contactSP" class="bots"></div>
+				</div>
+			<?php 	endif; ?>
+			<?php   if($lang == 'GR'): ?>
+				<div id="mission" class="bots">
+					<div id="missionGR" class="bots"></div>
+				</div>
+				<div id="privacy" class="bots">
+					<div id="privacyGR" class="bots"></div>
+				</div>
+				<div id="prices" class="bots">
+					<div id="pricesGR" class="bots"></div>
+				</div>
+				<div id="trailers" class="bots">
+					<div id="trailersGR" class="bots"></div>
+				</div>
+				<div id="contact" class="bots">
+					<div id="contactGR" class="bots"></div>
+				</div>
+			<?php 	endif; ?>
+			<?php   if($lang == 'IT'): ?>
+				<div id="mission" class="bots">
+					<div id="missionIT" class="bots"></div>
+				</div>
+				<div id="privacy" class="bots">
+					<div id="privacyIT" class="bots"></div>
+				</div>
+				<div id="prices" class="bots">
+					<div id="pricesIT" class="bots"></div>
+				</div>
+				<div id="trailers" class="bots">
+					<div id="trailersIT" class="bots"></div>
+				</div>
+				<div id="contact" class="bots">
+				<div id="contactIT" class="bots"></div>
+				</div>
+			<?php 	endif; ?>
 		</div>
-		<div id="indi"></div>
+			
+	</div>
+	<div id="indi"></div>
 		<?php 
 			
 			if(!isset($_GET['page'])){
