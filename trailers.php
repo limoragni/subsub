@@ -1,6 +1,3 @@
-<!doctype html>
-<html>
-    <head>
        <?php include('connect.php');
         $rawData = mysql_query("SELECT * FROM videos");
     if (!$rawData ) {
@@ -17,21 +14,30 @@
         $data[$i] = $row;
         $i++;
     }?>
-    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-    	<script src="galleria/galleria-1.3.1.min.js"></script>
+
+<!doctype html>
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/sliderstyle.css">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+      <script src="js/jquery.slides.min.js"></script>
     </head>
     <body>
 <style>
-    #galleria{ width: 700px; height: 400px; background: #000 }
+   
 </style>
 
 <div class="content">
     <div class="sub-content">
         <div id="tr">
-            <div id="galleria">
+            <div id="slides">
                 <?php foreach($data as $v):?>
-                <a href="http://vimeo.com/<?php echo $v['vimeo_id'] ?>"><span class="video">Watch this on Vimeo!</span></a>
-                    <?php endforeach; ?>
+                <div>
+                    <iframe src="//player.vimeo.com/video/<?php echo $v['vimeo_id'] ?>?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="750" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                
+                <?php endforeach; ?>
                <!--  <a href="http://vimeo.com/57879298"><span class="video">Watch this on Vimeo!</span></a>
                 <a href="http://vimeo.com/57970228"><span class="video">Watch this on Vimeo!</span></a>
                 <a href="http://vimeo.com/58259433"><span class="video">Watch this on Vimeo!</span></a> -->
@@ -41,9 +47,13 @@
     </div>
 </div>
 
-<script>
-    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-     Galleria.run('#galleria');
+<script type="text/javascript">
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
 </script>
     </body>
 </html>
