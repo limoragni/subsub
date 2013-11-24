@@ -36,11 +36,9 @@
                 <div>
                     <iframe src="//player.vimeo.com/video/<?php echo $v['vimeo_id'] ?>?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="750" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
-                
                 <?php endforeach; ?>
-               <!--  <a href="http://vimeo.com/57879298"><span class="video">Watch this on Vimeo!</span></a>
-                <a href="http://vimeo.com/57970228"><span class="video">Watch this on Vimeo!</span></a>
-                <a href="http://vimeo.com/58259433"><span class="video">Watch this on Vimeo!</span></a> -->
+                <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+                <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
             </div>
         </div>
 
@@ -51,7 +49,8 @@
     $(function(){
       $("#slides").slidesjs({
         width: 940,
-        height: 528
+        height: 528,
+        navigation: false
       });
     });
 </script>
