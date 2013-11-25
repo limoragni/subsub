@@ -330,19 +330,6 @@ ul, li{
 	cursor: pointer;
 }
 
-#show-trailer{
-	opacity: 0;
-	display: none;
-	width: 750px;
-	height:450px;
-	background-color: #FFF;
-	position: absolute;
-	left:50%;
-	margin-left: -375px;
-	margin-top: 10px;
-	z-index: 9200;
-	padding: 20px;
-}
 
 #grey{
 	width:100%;

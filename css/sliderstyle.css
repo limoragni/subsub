@@ -1,12 +1,26 @@
- body {
-      -webkit-font-smoothing: antialiased;
-      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-      color: #232525;
-      padding-top:70px;
+    #slides {
+      display: none;
+      background-color: #686868;
+      border-radius: 15px;
+      width: 770px;
+      height: 600px;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 10px;
     }
 
-    #slides {
-      display: none
+    #lista {
+      float: left;
+    }
+
+    #ifreim {
+      float: left;
+    }
+
+    #flechas {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 20px;
     }
 
     #slides .slidesjs-navigation {
@@ -27,6 +41,7 @@
       margin: 6px 0 0;
       float: right;
       list-style: none;
+      margin-right: 20px;
     }
 
     .slidesjs-pagination li {
