@@ -35,7 +35,7 @@ ul, li{
 	overflow: hidden;
 	margin-left: -195;
 	padding-top: 15px;
-	width: 460px;
+	width: 520px;
 	position: relative;
 	left: 50%;
 }
@@ -282,8 +282,40 @@ ul, li{
 	background-position: 0px -52px;
 	cursor: pointer;
 }
+#festivalEN{
+	background-image: url("../imgs/festivalEN.png");
+	background-repeat: no-repeat;
+}
+#festivalEN:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#festivalSP{
+	background-image: url("../imgs/festivalES.png");
+	background-repeat: no-repeat;
+}
+#festivalSP:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#festivalIT{
+	background-image: url("../imgs/festivalITA.png");
+	background-repeat: no-repeat;
+}
+#festivalIT:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
+#festivalGR{
+	background-image: url("../imgs/festivalGER.png");
+	background-repeat: no-repeat;
+}
+#festivalGR:hover{
+	background-position: 0px -52px;
+	cursor: pointer;
+}
 .content{
-	min-height: 340px;
+	min-height: 250px;
 	width: 100%;
 	background-color: #F7E1B8;
 	margin-top: 100px;
@@ -293,10 +325,10 @@ ul, li{
 .sub-content{
 	margin-left: 15%;
 	padding-top: 30px;
-	width: 900px;
+	width: 1000px;
 	text-align: justify;
 	position: relative;
-	left: 50%;
+	left: 62%;
 	margin-left: -620px;
 }
 
@@ -306,9 +338,10 @@ ul, li{
 
 #contacto{
 	position: relative;
-	left: 50%;
+	left: 27%;
 	margin-left: -270px;
 	top: 35px;
+	margin-bottom: 40px;
 }
 
 #proximamente{
@@ -321,7 +354,7 @@ ul, li{
 #tr{
 	width: 750px;
 	position: relative;
-	left: 50%;
+	left: 25%;
 	margin-left: -230px;
 }
 
@@ -399,4 +432,21 @@ ul, li{
 #paypal:hover{
 	background-position: 0px -62px;
 	cursor: pointer;
+}
+#fest{
+	margin-left: 30px; 
+	margin-top: 20px;
+    width: 150px;
+    height: auto;
+    float: left;
+}
+#fest:hover{
+	cursor: pointer;
+}
+#cams{
+	width: 100px;
+	height: auto;
+	float: right;
+	margin-right: 100px;
+	position: relative;
 }

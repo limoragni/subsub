@@ -49,4 +49,5 @@
 <?php	endif; ?>
 		</div>
 	</div>
+	<img id="cams" src="imgs/C2.png">
 </div>

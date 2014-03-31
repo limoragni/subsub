@@ -87,4 +87,5 @@
 <?php	endif; ?>
 		</div>
 	</div>
+	<img id="cams" src="imgs/C4.png">
 </div>

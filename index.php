@@ -57,6 +57,9 @@
 				<div id="contact" class="bots">
 					<div id="contactEN" class="bots"></div>
 				</div>
+				<div id="festival" class="bots">
+					<div id="festivalEN" class="bots"></div>
+				</div>
 			<?php 	endif; ?>
 			<?php   if($lang == 'SP'): ?>
 				<div id="mission" class="bots">
@@ -73,6 +76,9 @@
 				</div>
 				<div id="contact" class="bots">
 					<div id="contactSP" class="bots"></div>
+				</div>
+				<div id="festival" class="bots">
+					<div id="festivalSP" class="bots"></div>
 				</div>
 			<?php 	endif; ?>
 			<?php   if($lang == 'GR'): ?>
@@ -91,6 +97,9 @@
 				<div id="contact" class="bots">
 					<div id="contactGR" class="bots"></div>
 				</div>
+				<div id="festival" class="bots">
+					<div id="festivalGR" class="bots"></div>
+				</div>
 			<?php 	endif; ?>
 			<?php   if($lang == 'IT'): ?>
 				<div id="mission" class="bots">
@@ -106,7 +115,10 @@
 					<div id="trailersIT" class="bots"></div>
 				</div>
 				<div id="contact" class="bots">
-				<div id="contactIT" class="bots"></div>
+					<div id="contactIT" class="bots"></div>
+				</div>
+				<div id="festival" class="bots">
+					<div id="festivalIT" class="bots"></div>
 				</div>
 			<?php 	endif; ?>
 		</div>

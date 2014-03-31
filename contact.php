@@ -1,7 +1,7 @@
 <div class="content">
 	<div class="sub-content">
-		<img id="contacto" src="imgs/contacto2.png">
-			
+		<img id="contacto" src="imgs/contacto<?php echo $lang?>.png">
+		
 <?php   if($lang == 'EN'): ?>
 			
 <?php 	endif; ?>
@@ -19,4 +19,5 @@
 <?php	endif; ?>
 	
 	</div>
+		<img id="cams" src="imgs/C1.png">
 </div>

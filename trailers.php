@@ -47,6 +47,7 @@
         </div>
 
     </div>
+    <img id="cams" src="imgs/C5.png">
 </div>
 
 <script type="text/javascript">
