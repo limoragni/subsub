@@ -4,5 +4,5 @@
 		<img id="comoImg" src="imgs/ComoImg<?php echo $lang?>.png">
 
 	</div>
-	<img id="cams" src="imgs/C3.png">
+	<!-- <img id="cams" src="imgs/C3.png"> -->
 </div>
