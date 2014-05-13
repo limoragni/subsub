@@ -1,5 +1,6 @@
 <?php 
-	$con = mysql_connect('localhost','sirjones','wichtig');
+	include('config.php');
+	$con = mysql_connect(CONFIG_DATABASE_HOST,CONFIG_DATABASE_USER, CONFIG_DATABASE_PASS);
 	if (mysqli_connect_errno($con)){
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
