@@ -14,11 +14,14 @@
 
 	// Se arma un string con la query sql
 	$sql = "UPDATE videos SET nombre='".$nombre."', director='".$director."', pais='".$pais."', duracion='".$duracion."', comentario='".$comentario."', vimeo_id=".$vimeoId." WHERE id=".$id;
-	
+	$sql2= "DELETE FROM videos WHERE vimeo_id= 0";
 	// Se ejecuta la query y se hace el update
 	$rawData = mysql_query($sql);
+	$rawData2 = mysql_query($sql2);
 	if (!$rawData ) {
     	echo "Could not successfully run query ($rawData ) from DB: " . mysql_error();
+    	//echo $vimeoId;
     	exit;
 	}
+	
 ?>
